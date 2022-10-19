@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <a href="/index.html">Suche</a>
+        <a href="/insert.html">Neues Buch</a>
+    </nav>
+    <h1>Suche</h1>
+
+
+    <input type="text" name="bookid" id="bookidinput">
+
+    <button id="getbooksbutton">Suchen</button>
+    <br><br>
+    <table id="table" style="visibility: hidden;">
+        <tr>
+            <th>Titel</th>
+            <th>Seiten</th>
+            <th>Beschreibung</th>
+            <th>Erscheinungsdatum</th>
+            <th>Status</th>
+        </tr>
+
+        <tbody id="myTableBody">
+
+        </tbody>
+    </table>
+
+    <script src="requests.js"></script>
+</body>
+
+</html>
